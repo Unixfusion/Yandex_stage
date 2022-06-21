@@ -1,6 +1,5 @@
 fun main(args: Array<String>) {
     var count = readLine()!!.toInt()
-    println(count)
     var set = readLine()!!.split(" ").map { it.toInt() }
     var negative = mutableListOf<Int>()
     var positive = mutableListOf<Int>()
